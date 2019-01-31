@@ -1,0 +1,20 @@
+(a)Username for 'https://github.com': code-wanderer
+Password for 'https://code-wanderer@github.com': 
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 835 bytes | 835.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/code-wanderer/Assignment1.git
+   3d373c9..7785b54  master -> master
+(b)5 commits have been done to this file, I used the "git log" command to get the information
+(c)The file was last modified Jan 30 11:04, and I used the ls -al command
+(d)To make sure code changes are verified before delivering them to developers. And it helps to better isolate development activities among the team.
+(e)git log gives you the information on what commits have been made, by whom, when, and with the message for the commits. While git status displays the state of the working directory and the staging area. Gives you information on changes but does not show you anything information about the commit history
+(f)Using the "git log Weapon.h" command
+(g)The command is "git log --grep="file""
+(h)Inheritance is the ability for classes to inherit information from their parents. Usually going from an abstract idea to something very specific (i.e. Car->Honda->Civic). This allows for polymorphism and re-useability. Polymorphism is the ability to treat and use one object like we would a different object. (i.e. We treat both Toyota's and Honda's as cars). Encapsulation is the ability to hide information information. This makes it so that the user of the class or program does not need to know how the functions work. They just need to know which method to use.
+(i)The main difference between the two workflows is that in the Dictator, Lieutenants workflow the work/code is being processed and merged twice before getting put in the repository. In the Integration Manager workflow each developer has 2 repositories, a public and a private one. Then from the public one it is sent to the manager who merges and checks the files before sending them into the blessed repository. So DLW has a double check (Dictator, Lieutenants) and the IMW only has one check (Manager only).
+(j)With a team of 100 developers the Integration workflow method would overwhelem the manager with the number of files to check, merge and push to the repository. With the Dictators and Lieutenants the work is divided so each Lieutenant only has to take on and check a few developers' files and merge then pass them to the Dictator. This keeps the Lieutenants and the Dictator from being overwhelmed with files.

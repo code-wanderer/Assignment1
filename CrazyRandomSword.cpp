@@ -5,11 +5,11 @@ Date: 2/1/19
 -------------------------------------------*/
 
 #include <cstdlib>
-#include "CrazyRandomSword.cpp"
+#include "CrazyRandomSword.h"
 
 CrazyRandomSword::CrazyRandomSword(){
 	srand(time(NULL));		// Seed made depending on the time in seconds
-	Weapon("Crazy random sword", (rand() % 93) + 7);	// Sets the hitpoints randomly between 7 and 100
+	Weapon("crazy random sword", (rand() % 94) + 7);	// Sets the hitpoints randomly between 7 and 100
 }
 
 double CrazyRandomSword::hit(double armor) {

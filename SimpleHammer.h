@@ -13,7 +13,7 @@ Date: 2/1/19
 class SimpleHammer : public Weapon {
 public:
 
-    SimpleHammer() : Weapon("Simple hammer", 25.0) { // Calls Weapon(name, hitpoints) constructor with values Simple hammer and 25.0
+    SimpleHammer() : Weapon("simple hammer", 25.0) { // Calls Weapon(name, hitpoints) constructor with values Simple hammer and 25.0
     }
 
     virtual ~SimpleHammer() {};	

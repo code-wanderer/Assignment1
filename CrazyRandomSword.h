@@ -12,7 +12,11 @@ Date: 2/1/19
 
 class CrazyRandomSword : public Weapon {
 public:
+	CrazyRandomSword();
 
+    virtual ~CrazyRandomSword() {};	
+
+    virtual double hit(double armor);  
 };
 
 #endif /* CRAZYRANDOMSWORD_H */

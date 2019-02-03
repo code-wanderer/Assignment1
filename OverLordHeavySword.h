@@ -4,14 +4,14 @@ Author: Leonardo Luque
 Date: 2/1/19
 -------------------------------------------*/
 
-#include "OverLordHeavySword.h"
+#include "Weapon.h"
 
 #ifndef OVERLORDHEAVYSWORD_H
 #define OVERLORDHEAVYSWORD_H
 
 class OverLordHeavySword : public Weapon {
 public:
-	OverLordHeavySword();
+	OverLordHeavySword() : Weapon("overlord heavy sword", (rand() % 26) + 25){}
 
     virtual ~OverLordHeavySword() {};	
 

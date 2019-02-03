@@ -4,7 +4,6 @@ Author: Leonardo Luque
 Date: 2/1/19
 -------------------------------------------*/
 
-#include <string>
 #include "Weapon.h"
 
 #ifndef SIMPLEHAMMER_H

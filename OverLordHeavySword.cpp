@@ -7,11 +7,6 @@ Date: 2/1/19
 #include <cstdlib>
 #include "OverLordHeavySword.h"
 
-OverLordHeavySword::OverLordHeavySword(){
-	srand(time(NULL));		// Seed made depending on the time in seconds
-	Weapon("overlord heavy sword", (rand() % 26) + 25);	// Sets the hitpoints randomly between 25 and 50
-}
-
 double OverLordHeavySword::hit(double armor) {
 	srand(time(NULL));		// Seed created dependent on time in seconds
 

@@ -11,7 +11,7 @@ Date: 2/1/19
 
 class OverLordHeavySword : public Weapon {
 public:
-	OverLordHeavySword() : Weapon("overlord heavy sword", (rand() % 26) + 25){}
+	OverLordHeavySword() : Weapon("overlord heavy sword", (rand() % 26) + 25){}	// Sets the hitpoints randomly between 25 and 50
 
     virtual ~OverLordHeavySword() {};	
 

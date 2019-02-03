@@ -11,7 +11,7 @@ Date: 2/1/19
 
 class CrazyRandomSword : public Weapon {
 public:
-	CrazyRandomSword() : Weapon("crazy random sword", (rand() % 94) + 7){}
+	CrazyRandomSword() : Weapon("crazy random sword", (rand() % 94) + 7){} // Sets the hitpoints randomly between 7 and 100
 
     virtual ~CrazyRandomSword() {};	
 
